@@ -76,8 +76,11 @@ body {
     width: 48px;
     height: 48px;
 }
-.icon-box:hover .icon {
+.icon-box:hover .icon,.icon-box:focus .icon {
     background-color: rgba(0,200,255,0.5);
     border: 1px solid rgba(0,200,255,0.75);
     margin: -1px;
+}
+.icon-box:focus .icon {
+    filter: brightness(0.8);
 }
