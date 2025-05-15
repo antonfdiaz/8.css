@@ -10,6 +10,8 @@ body {
     font-family: "Segoe UI Semilight";
     text-shadow: 0px 1.5px 2.5px black;
     color: white;
+    background-image: url("images/wallpaper.jpg");
+    background-size: cover;
 }
 .taskbar {
     display: flex;
@@ -17,21 +19,33 @@ body {
     height: 48px;
     background-color: rgba(255,255,255,0.75);
 }
-.icons-box .icon {
+.icons-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.icon-box {
+    width: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    word-wrap: break-word;
+}
+.icon {
     width: 64px;
     height: 64px;
     padding: 5px;
 }
-.icons-box .icon:hover {
-    background-color: rgba(0,200,255,0.5);
-    border: 1px solid rgba(0,200,255,0.75);
+.icon-box:hover .icon {
+    background-color: rgba(0, 200, 255, 0.5);
+    border: 1px solid rgba(0, 200, 255, 0.75);
     margin: -1px;
-}
-.icons-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
