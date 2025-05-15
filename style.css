@@ -155,3 +155,20 @@ body {
     margin-left: 6px;
     color: black;
 }
+/*Button Styles*/
+button:not(.close) {
+    border: 1.5px solid rgb(150,150,150);
+    background-color: rgb(230,230,230);
+    font-family: "Segoe UI Semilight";
+    padding: 2px;
+    min-width: 80px;
+    transition: all 0.5s ease;
+}
+button:hover {
+    border: 1.5px solid rgb(120,200,255);
+    background-color: rgb(190,235,255);
+}
+button:active {
+    border: 1.5px solid rgb(55,160,230);
+    background-color: rgb(140,220,255);
+}
