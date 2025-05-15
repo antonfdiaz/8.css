@@ -21,11 +21,12 @@ body {
     left: 0px;
     width: 100%;
     height: 48px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.2);
 }
 .taskbar img,.taskbar div {
     height: 40px;
     width: auto;
+    margin-right: 8px;
 }
 .taskbar img:hover {
     background-color: rgba(255,255,255,0.5);
@@ -42,7 +43,7 @@ body {
     background-image: url("images/start_button/hover.png");
 }
 .start-button:focus,.start-button:active {
-    background-image: url("images/start_button/pressed.png");
+    background-image: url("images/start_button/normal.png");
 }
 .icons-box {
     position: absolute;
