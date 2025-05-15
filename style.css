@@ -172,3 +172,23 @@ button:active {
     border: 1.5px solid rgb(55,160,230);
     background-color: rgb(140,220,255);
 }
+/*Check Box Styles*/
+input[type=checkbox] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+}
+input[type=checkbox]:hover {
+    border: 1px solid rgb(0,60,200);
+}
+input[type=checkbox]:checked::before {
+    content: "\2714";
+    font-size: 14px;
+    position: absolute;
+    left: 2px;
+    top: -1px;
+}
