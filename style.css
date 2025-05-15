@@ -16,6 +16,9 @@ body {
 .custom-cursor {
     cursor: url("images/cursor.png"),auto;
 }
+.segoe-ui {
+    font-family: "Segoe UI Semilight";
+}
 /*Task Bar Styles*/
 .taskbar {
     align-items: center;
