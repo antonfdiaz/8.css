@@ -6,6 +6,5 @@
 ## 8.css - W8 in CSS
 
 8.css tries to recreate the Windows 8/8.1 UI in CSS so you can use it in your websites.  
-You can also fork it and improve it to your likings.
 
-You can also view the documentation on how to use it [here](https://github.com/antonfdiaz/8.css/wiki).
+You can view the documentation on how to use it [here](https://github.com/antonfdiaz/8.css/wiki).
