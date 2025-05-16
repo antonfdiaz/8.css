@@ -9,5 +9,3 @@
 You can also fork it and improve it to your likings.
 
 You can also view the documentation on how to use it [here](https://github.com/antonfdiaz/8.css/wiki).
-
-![banner](images/banner.png)  
