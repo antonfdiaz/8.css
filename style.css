@@ -135,7 +135,7 @@
     background-color: rgb(187,64,57);
 }
 /*Window Styles*/
-.window.example {
+.window.default {
     left: calc(50% - 27.5%);
     top: calc(50% - 27.5% - 24px);
     width: 55%;
