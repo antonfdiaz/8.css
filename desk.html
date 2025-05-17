@@ -68,12 +68,25 @@
             <input type="checkbox" class="checkbox">
         </div>
     </div>
+    <div id="loading" class="segoe-ui">
+        <h3>Loading the desktop</h3>
+        <img src="images/loader.gif" height="80px">
+        <p>Don't close your browser</p>
+    </div>
     <script>
+        $(window).on("load",function() {
+            setTimeout(function() {
+                $("#loading").fadeOut("slow");
+            },3000);
+        });
         $(".window").draggable({
             handle: ".title-bar",
         });
         $(".close").click(function () {
-            $(this).closest(".window").hide();
+            $(this).closest(".window").hide()
+        });
+        $(".start-button").on("click",function() {
+            $(".window.default").show()
         });
     </script>
 </body>
