@@ -7,9 +7,6 @@
     font-family: "Segoe UI Semilight";
     src: url("fonts/Segoe\ UI\ Semilight.ttf");
 }
-.custom-cursor {
-    cursor: url("images/cursor.png"),auto;
-}
 .segoe-ui {
     font-family: "Segoe UI Semilight";
 }
