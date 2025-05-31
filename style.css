@@ -102,14 +102,8 @@
     width: 100%;
     height: 32px;
 }
-.title-bar.grab-cursor {
-    cursor: grab;
-}
 .title-bar button {
     margin-right: 6px;
-}
-.title-bar.grab-cursor:active {
-    cursor: grabbing;
 }
 .title-bar.hide {
     opacity: 0;
