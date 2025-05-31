@@ -1,9 +1,5 @@
 /*Define Fonts*/
 @font-face {
-    font-family: "Segoe UI Light";
-    src: url("fonts/Segoe\ UI\ Light.ttf");
-}
-@font-face {
     font-family: "Segoe UI Semilight";
     src: url("fonts/Segoe\ UI\ Semilight.ttf");
 }
